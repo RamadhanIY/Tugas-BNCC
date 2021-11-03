@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleAboutUs.css">
-    <title>About Us</title>
+    <title>InteriorD</title>
+    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
     <nav class="navbar">
@@ -14,17 +14,16 @@
         <div><a href="#">Contact</a></div>
         <div><a href="#">Log in</a></div>
     </nav>
-    <section class="AboutUs1">
-        <div class="AboutUs2">
-            <div>
-                <img src="./969.jpg" alt="Profile">
-            </div>
-            <div class="Title">Hey Guys! I am Reza Mohtashami from InteriorD</div>
+    <section class="Home">
+        <div class="Home2">
+            <div class="Title">InteriorD</div>
             <p class="Description">
-                Architect Reza Mohtashami has designed a conceptual Black Villa in Harriman State Park, New York. The single-family home was announced through a series of architectural renderings that depict the interior and exterior of the villa. When asked about his design process on the project, Mohtashami explained that the dark palette was an important concept. “Black is very vague,” he says. “Black means power and has a high character and prestige. It is very mysterious.” Mohtashami believes that though lighter colors and open spaces are more popular in modern trends, the moody atmosphere of this home fits better in the context of the New York forest.
+                A consistent visual connection is maintained to this site through large windows on major façades. The interior renderings demonstrate the success of these elements as the dark colors and rich wood used in the interior create a perfect composition with background scenery. 
             </p>
+            </div>
+        </div>
     </section>
-    <section class="Our-Team">
+    /**<section class="Our-Team">
         <h1>
             Introduce Our Team! 
         </h1>
@@ -61,7 +60,44 @@
                     <div class="description-info">I am an introvert is often thought of as a quiet, reserved, and thoughtful individual. I don't seek out special attention or social engagements, as these events can leave introverts feeling exhausted and drained. 
                     </div>
             </div>
+        
+        
         </div>
     </section>
+    <section class="Contact-Us">
+        <h1 class="Contact-us-now">Contact Us Now!</h1>
+        <form action="/">
+        <div class="form-container">
+            <label class="form-name" for="name">Name</label>
+            <input id= "name" type="text">
+        </div>
+        <div class="form-container">
+            <label class="form-name"  for="email">Email</label>
+            <input id="email" type="email">
+        </div>
+        <div class="form-container">
+            <label class="form-name"  for="phone-number">Phone Number</label>
+            <input id="number" type="number">
+        </div>
+        <div class="form-container">
+            <label class="form-name"  for="Problems">Your Problems</label>
+            <span>
+                <input name="problems" type="radio" id="communication" value="communication"/><label for="communication">Communication</label>
+            </span>
+            <span>
+                <input name="problems" type="radio" id="Error" value="Error" /><label for="Error">Error</label>
+            </span>
+            <span>
+                <input name="problems" type="radio" id="Others" value="Others"/><label for="Others">Others</label>
+            </span>
+            
+        </div>
+        <div class="form-container" > 
+            <label class="form-name"  for="textarea">Your Message</label>
+            <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
+        </div> 
+        <input class="Submit" type="submit" value="submit" >
+    </form>
+    </section>**/
 </body>
 </html>
